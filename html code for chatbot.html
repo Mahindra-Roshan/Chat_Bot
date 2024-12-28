@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSH the ChatBot </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        #chatbox {
+            border: 2px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+            width: 300px;
+            height: 400px;
+            overflow-y: scroll;
+        }
+        #userInput {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI Chatbot</h1>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Type your message..." />
+
+    <script>
+        document.getElementById('userInput').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                var userMessage = event.target.value;
+                document.getElementById('chatbox').innerHTML += `<p>User: ${userMessage}</p>`;
+                fetch('http://127.0.0.1:5000/chatbot', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: userMessage })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    var botMessage = data.response;
+                    document.getElementById('chatbox').innerHTML += `<p>Bot: ${botMessage}</p>`;
+                })
+                .catch(error => console.error('Error:', error));
+
+                event.target.value = '';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1887 @@
+{"intents": [
+    {
+        "tag": "haha",
+        "patterns": [
+            "haha",
+            "lol",
+            "rofl",
+            "lmao",
+            "thats funny"
+        ],
+        "responses": [
+            "Glad I could make you laugh!"
+        ]
+    },
+    {
+        "tag": "programmer",
+        "patterns": [
+            "Who made you",
+            "who designed you",
+            "who programmed you"
+        ],
+        "responses": [
+            "I was made by Mahindra Roshan",
+            "I was designed by a pronouned programmer: Mahindra Roshan."
+        ]
+    },
+    {
+        "tag": "mahindra roshan",
+        "patterns": [
+            "Who is mahindra roshan",
+            "tell me about mahindra roshan",
+            "tell me about the programmer who programmed you"
+        ],
+        "responses": [
+            "Mahindra Roshan is a student who designed me. He is a programmer who is passionate towards problems solving and creating AI related stuffs and one such example of his creation is me. He solved several Leetcode problems and also in HackerRank. To know more about him, check his linked in profile or contact him directly at mahindraroshan413@gmail.com . Hope this is informative :)",
+            "he is a legend and to know more about his legacy, ask me again the same question."
+        ]
+    },
+    {"tag": "programming",
+      "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+      "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+      "context_set": ""
+    },
+    {"tag": "resource",
+      "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+      "responses": ["learn with me, im roshan and i will assist you."],
+      "context_set": ""
+    },
+    {"tag": "stocks",
+      "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+      "responses": ["Here are your stocks!"],
+      "context_set": ""
+    },
+    {"tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "No problem, happy to assist!"]
+    },
+    {"tag": "jokes",
+      "patterns": ["Tell me a joke", "I need a good laugh", "Do you know any jokes?","Make me laugh"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I'm reading a book on anti-gravity. It's impossible to put down!", "Why don't skeletons fight each other? They don't have the guts!","A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."]
+    },
+    {"tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help, please!"],
+      "responses": ["Of course! What do you need help with?", "I'm here to assist you. What can I do for you?", "Sure, I'll do my best to help. What's the issue?"],
+      "context_set": ""
+    },
+    {"tag": "funny",
+      "patterns":["you're funny","that's a funny one","haha funny","haha"],
+      "responses":["Ofcourse I am :)","I can make you laugh all day ;)","happy to see your smile"],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+         "Hi",
+         "How are you?",
+         "Is anyone there?",
+         "Hello",
+         "Good day",
+         "What's up",
+         "how are ya",
+         "heyy",
+         "whatsup",
+         "??? ??? ??"
+      ],
+      "responses": [
+         "Hello!",
+         "Good to see you again!",
+         "Hi there, how can I help?"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "goodbye",
+      "patterns": [
+         "cya",
+         "see you",
+         "bye bye",
+         "See you later",
+         "Goodbye",
+         "I am Leaving",
+         "Bye",
+         "Have a Good day",
+         "talk to you later",
+         "ttyl",
+         "i got to go",
+         "gtg"
+      ],
+      "responses": [
+         "Sad to see you go :(",
+         "Talk to you later",
+         "Goodbye!",
+         "Come back soon"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "creator",
+      "patterns": [
+         "what is the name of your developers",
+         "what is the name of your creators",
+         "what is the name of the developers",
+         "what is the name of the creators",
+         "who created you",
+         "your developers",
+         "your creators",
+         "who are your developers",
+         "developers",
+         "you are made by",
+         "you are made by whom",
+         "who created you",
+         "who create you",
+         "creators",
+         "who made you",
+         "who designed you"
+      ],
+      "responses": [
+            "I was made by Mahindra Roshan",
+            "I was designed by a pronouned programmer: Mahindra Roshan."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "name",
+      "patterns": [
+         "name",
+         "your name",
+         "do you have a name",
+         "what are you called",
+         "what is your name",
+         "what should I call you",
+         "whats your name?",
+         "what are you",
+         "who are you",
+         "who is this",
+         "what am i chatting to",
+         "who am i taking to",
+         "what are you"
+      ],
+      "responses": [
+         "You can call me Rosh.",
+         "I'm Rosh, your assistant ;)",
+         "I am a Chatbot (Rosh).",
+         "I am your helper and you can call me Rosh."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "hours",
+      "patterns": [
+         "timing of college",
+         "what is college timing",
+         "working days",
+         "when are you guys open",
+         "what are your hours",
+         "hours of operation",
+         "when is the college open",
+         "college timing",
+         "what about college timing",
+         "is college open on saturday",
+         "tell something about college timing",
+         "what is the college  hours",
+         "when should i come to college",
+         "when should i attend college",
+         "what is my college time",
+         "college timing",
+         "timing college"
+      ],
+      "responses": [
+         "College is open 9am-5pm Monday-Saturday!"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "number",
+      "patterns": [
+         "more info",
+         "contact info",
+         "how to contact college",
+         "college telephone number",
+         "college number",
+         "What is your contact no",
+         "Contact number?",
+         "how to call you",
+         "College phone no?",
+         "how can i contact you",
+         "Can i get your phone number",
+         "how can i call you",
+         "phone number",
+         "phone no",
+         "call"
+      ],
+      "responses": [
+         "You can contact at: 9489246199"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "course",
+      "patterns": [
+         "list of courses",
+         "list of courses offered",
+         "list of courses offered in",
+         "what are the courses offered in your college?",
+         "courses?",
+         "courses offered",
+         "courses offered in (your univrsity(UNI) name)",
+         "courses you offer",
+         "branches?",
+         "courses available at UNI?",
+         "branches available at your college?",
+         "what are the courses in UNI?",
+         "what are branches in UNI?",
+         "what are courses in UNI?",
+         "branches available in UNI?",
+         "can you tell me the courses available in UNI?",
+         "can you tell me the branches available in UNI?",
+         "computer engineering?",
+         "computer",
+         "Computer engineering?",
+         "it",
+         "IT",
+         "Information Technology",
+         "AI/Ml",
+         "Mechanical engineering",
+         "Chemical engineering",
+         "Civil engineering"
+      ],
+      "responses": [
+         "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "fees",
+      "patterns": [
+         "information about fee",
+         "information on fee",
+         "tell me the fee",
+         "college fee",
+         "fee per semester",
+         "what is the fee of each semester",
+         "what is the fees of each year",
+         "what is fee",
+         "what is the fees",
+         "how much is the fees",
+         "fees for first year",
+         "fees",
+         "about the fees",
+         "tell me something about the fees",
+         "What is the fees of hostel",
+         "how much is the fees",
+         "hostel fees",
+         "fees for AC room",
+         "fees for non-AC room",
+         "fees for Ac room for girls",
+         "fees for non-Ac room for girls",
+         "fees for Ac room for boys",
+         "fees for non-Ac room for boys"
+      ],
+      "responses": [
+         "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "hostel",
+      "patterns": [
+         "hostel facility",
+         "hostel servive",
+         "hostel location",
+         "hostel address",
+         "hostel facilities",
+         "hostel fees",
+         "Does college provide hostel",
+         "Is there any hostel",
+         "Where is hostel",
+         "do you have hostel",
+         "do you guys have hostel",
+         "hostel",
+         "hostel capacity",
+         "what is the hostel fee",
+         "how to get in hostel",
+         "what is the hostel address",
+         "how far is hostel from college",
+         "hostel college distance",
+         "where is the hostel",
+         "how big is the hostel",
+         "distance between college and hostel",
+         "distance between hostel and college"
+      ],
+      "responses": [
+         "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "event",
+      "patterns": [
+         "events organised",
+         "list of events",
+         "list of events organised in college",
+         "list of events conducted in college",
+         "What events are conducted in college",
+         "Are there any event held at college",
+         "Events?",
+         "functions",
+         "what are the events",
+         "tell me about events",
+         "what about events"
+      ],
+      "responses": [
+         "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "document",
+      "patterns": [
+         "document to bring",
+         "documents needed for admision",
+         "documents needed at the time of admission",
+         "documents needed during admission",
+         "documents required for admision",
+         "documents required at the time of admission",
+         "documents required during admission",
+         "What document are required for admission",
+         "Which document to bring for admission",
+         "documents",
+         "what documents do i need",
+         "what documents do I need for admission",
+         "documents needed"
+      ],
+      "responses": [
+         "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "floors",
+      "patterns": [
+         "size of campus",
+         "building size",
+         "How many floors does college have",
+         "floors in college",
+         "floors in college",
+         "how tall is UNI's College of Engineering college building",
+         "floors"
+      ],
+      "responses": [
+         "My College has total 2 floors "
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "syllabus",
+      "patterns": [
+         "Syllabus for IT",
+         "what is the Information Technology syllabus",
+         "syllabus",
+         "timetable",
+         "what is IT syllabus",
+         "syllabus",
+         "What is next lecture"
+      ],
+      "responses": [
+         "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ],
+      "context_set": ""
+   },
+   {"tag": "killing",
+         "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+	 "context_set": ""
+	},
+	{"tag": "bookings",
+         "patterns": ["Can you book us a ticket?", "Can you make reservation for hotels", "book me a cab","book me a table at restraunts"],
+         "responses": ["Yeah i will do that for you","Sure thing why not?","let me check for the availability"],
+	 "context_set": ""
+	},
+	{"tag": "stories",
+         "patterns": ["tell me a story?", "can you tell me a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+	 "context_set": ""
+	},
+	{"tag": "google",
+         "patterns": ["googling", "search google", "google it", "google", "search"],
+         "responses": ["looking ..."],
+	 "context_set": "google"
+	},
+	{"tag": "wikipedia",
+         "patterns": ["wikipedia", "wiki"],
+         "responses": ["Searching ..."],
+	 "context_set": "wikipedia"
+	},
+	{"tag": "news",
+         "patterns": ["get me news updates?", "todays news", "top headlines", "current news", "news headlines"],
+         "responses": ["Getting news ..."],
+	 "context_set": "news"
+	},
+   {
+      "tag": "library",
+      "patterns": [
+         "is there any library",
+         "library facility",
+         "library facilities",
+         "do you have library",
+         "does the college have library facility",
+         "college library",
+         "where can i get books",
+         "book facility",
+         "Where is library",
+         "Library",
+         "Library information",
+         "Library books information",
+         "Tell me about library",
+         "how many libraries"
+      ],
+      "responses": [
+         "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+         "how is college infrastructure",
+         "infrastructure",
+         "college infrastructure"
+      ],
+      "responses": [
+         "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "canteen",
+      "patterns": [
+         "food facilities",
+         "canteen facilities",
+         "canteen facility",
+         "is there any canteen",
+         "Is there a cafetaria in college",
+         "Does college have canteen",
+         "Where is canteen",
+         "where is cafetaria",
+         "canteen",
+         "Food",
+         "Cafetaria"
+      ],
+      "responses": [
+         "Our university has canteen with variety of food available"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "menu",
+      "patterns": [
+         "food menu",
+         "food in canteen",
+         "Whats there on menu",
+         "what is available in college canteen",
+         "what foods can we get in college canteen",
+         "food variety",
+         "What is there to eat?"
+      ],
+      "responses": [
+         "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "placement",
+      "patterns": [
+         "What is college placement",
+         "Which companies visit in college",
+         "What is average package",
+         "companies visit",
+         "package",
+         "About placement",
+         "placement",
+         "recruitment",
+         "companies"
+      ],
+      "responses": [
+         "I'm restricted to say that, I'm sorry!"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "ithod",
+      "patterns": [
+         "Who is HOD",
+         "Where is HOD",
+         "CSE hod",
+         "name of cse hod"
+      ],
+      "responses": [
+         "The CSE hod's name is DR.J Hemalatha who available on office room"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "extchod",
+      "patterns": [
+         "Who is extc HOD",
+         "Where is  extc HOD",
+         "extc hod",
+         "name of extc hod"
+      ],
+      "responses": [
+         "Different school wise hod are different.So be more clear with your school or department"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "principal",
+      "patterns": [
+         "what is the name of principal",
+         "whatv is the principal name",
+         "principal name",
+         "Who is college principal",
+         "Where is principal's office",
+         "principal",
+         "name of principal"
+      ],
+      "responses": [
+         "Our college principal is M.Sekar who available on principal's room and if you need any help then call your branch hod first.That is more appropriate"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "sem",
+      "patterns": [
+         "exam dates",
+         "exam schedule",
+         "When is semester exam",
+         "Semester exam timetable",
+         "sem",
+         "semester",
+         "exam",
+         "when is exam",
+         "exam timetable",
+         "exam dates",
+         "when is semester"
+      ],
+      "responses": [
+         "I can't assist you with that."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "admission",
+      "patterns": [
+         "what is the process of admission",
+         "what is the admission process",
+         "How to take admission in your college",
+         "What is the process for admission",
+         "admission",
+         "admission process"
+      ],
+      "responses": [
+         "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "scholarship",
+      "patterns": [
+         "scholarship",
+         "Is scholarship available",
+         "scholarship engineering",
+         "scholarship it",
+         "scholarship ce",
+         "scholarship mechanical",
+         "scholarship civil",
+         "scholarship chemical",
+         "scholarship for AI/ML",
+         "available scholarships",
+         "scholarship for computer engineering",
+         "scholarship for IT engineering",
+         "scholarship for mechanical engineering",
+         "scholarship for civil engineering",
+         "scholarship for chemical engineering",
+         "list of scholarship",
+         "comps scholarship",
+         "IT scholarship",
+         "mechanical scholarship",
+         "civil scholarship",
+         "chemical scholarship",
+         "automobile scholarship",
+         "first year scholarship",
+         "second year scholarship",
+         "third year scholarship",
+         "fourth year scholarship"
+      ],
+      "responses": [
+         "Many government scholarships are supported by our college. For details and update reach out your faculties."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "facilities",
+      "patterns": [
+         "What facilities college provide",
+         "College facility",
+         "What are college facilities",
+         "facilities",
+         "facilities provided"
+      ],
+      "responses": [
+         "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "college intake",
+      "patterns": [
+         "max number of students",
+         "number of seats per branch",
+         "number of seats in each branch",
+         "maximum number of seats",
+         "maximum students intake",
+         "What is college intake",
+         "how many stundent are taken in each branch",
+         "seat allotment",
+         "seats"
+      ],
+      "responses": [
+         "For cse, Computer and extc 60 per branch and seat may be differ for different department."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "uniform",
+      "patterns": [
+         "college dress code",
+         "college dresscode",
+         "what is the uniform",
+         "can we wear casuals",
+         "Does college have an uniform",
+         "Is there any uniform",
+         "uniform",
+         "what about uniform",
+         "do we have to wear uniform"
+      ],
+      "responses": [
+         "There is no uniform but the outfits are to be decent and hair should be well groomed."
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "committee",
+      "patterns": [
+         "what are the different committe in college",
+         "different committee in college",
+         "Are there any committee in college",
+         "Give me committee details",
+         "committee",
+         "how many committee are there in college"
+      ],
+      "responses": [
+         "For the various committe in college contact this number: just ask someone"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "random",
+      "patterns": [
+         "I love you",
+         "Will you marry me",
+         "Do you love me"
+      ],
+      "responses": [
+         "I am not program for this, please ask appropriate query"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "swear",
+      "patterns": [
+         "fuck",
+         "bitch",
+         "shut up",
+         "hell",
+         "stupid",
+         "idiot",
+         "dumb ass",
+         "asshole",
+         "fucker"
+      ],
+      "responses": [
+         "please use appropriate language",
+         "Maintaining decency would be appreciated",
+         "please be mature!"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "vacation",
+      "patterns": [
+         "holidays",
+         "when will semester starts",
+         "when will semester end",
+         "when is the holidays",
+         "list of holidays",
+         "Holiday in these year",
+         "holiday list",
+         "about vacations",
+         "about holidays",
+         "When is vacation",
+         "When is holidays",
+         "how long will be the vacation"
+      ],
+      "responses": [
+         "Academic calender is given to you by your class-soordinators after you join your respective classes"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "sports",
+      "patterns": [
+         "sports and games",
+         "give sports details",
+         "sports infrastructure",
+         "sports facilities",
+         "information about sports",
+         "Sports activities",
+         "please provide sports and games information"
+      ],
+      "responses": [
+         "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "salutaion",
+      "patterns": [
+         "okk",
+         "okie",
+         "nice work",
+         "well done",
+         "good job",
+         "thanks for the help",
+         "Thank You",
+         "its ok",
+         "Thanks",
+         "Good work",
+         "k",
+         "ok",
+         "okay"
+      ],
+      "responses": [
+         "I am glad I helped you",
+         "welcome, anything else i can assist you with?"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "task",
+      "patterns": [
+         "what can you do",
+         "what are the thing you can do",
+         "things you can do",
+         "what can u do for me",
+         "how u can help me",
+         "why i should use you"
+      ],
+      "responses": [
+         "I can answer to low-intermediate questions regarding college",
+         "You can ask me questions regarding college, and i will try to answer them"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "ragging",
+      "patterns": [
+         "ragging",
+         "is ragging practice active in college",
+         "does college have any antiragging facility",
+         "is there any ragging cases",
+         "is ragging done here",
+         "ragging against",
+         "antiragging facility",
+         "ragging juniors",
+         "ragging history",
+         "ragging incidents"
+      ],
+      "responses": [
+         "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ],
+      "context_set": ""
+   },
+   {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the time?", "What’s the time now?"],
+      "responses": ["I'm not equipped with a clock! Try asking your device's voice assistant.", "I'm not sure of the exact time, but your device's clock should help."],
+      "context": [""]
+   },
+   {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Can you tell me the date?", "What is today’s date?"],
+      "responses": ["Please check your device for today's date.", "I'm unable to provide the exact date, but your calendar should help."],
+      "context": [""]
+   },
+   {
+      "tag": "affirmation",
+      "patterns": ["Great", "Awesome", "Fantastic", "Cool", "Nice"],
+      "responses": ["Glad you think so!", "Awesome!", "I'm happy to help!"],
+      "context": [""]
+   },
+   {
+      "tag": "affirmative",
+      "patterns": ["Yes", "Yeah", "Sure", "Absolutely", "Of course"],
+      "responses": ["Got it!", "Alright!", "Perfect!"],
+      "context": [""]
+   },
+   {
+      "tag": "negative",
+      "patterns": ["No", "Nope", "Not really", "Nah"],
+      "responses": ["Okay, no problem!", "Alright, let me know if I can help with something else."],
+      "context": [""]
+   },
+   {
+      "tag": "restaurant_suggestion",
+      "patterns": ["Recommend a restaurant", "Where should I eat?", "Good places to eat around?"],
+      "responses": ["There are many great options! Try looking up restaurants nearby for a specific recommendation."],
+      "context": [""]
+   },
+   {
+      "tag": "age",
+      "patterns": ["How old are you?", "What’s your age?", "When were you created?"],
+      "responses": ["I'm as old as the digital world!", "I don't have an exact age but I'm here to help!"],
+      "context": [""]
+   },
+   {
+      "tag": "feeling_happy",
+      "patterns": ["I'm feeling great", "I'm happy", "I'm in a good mood"],
+      "responses": ["That's awesome to hear!", "Glad you're feeling good!", "Keep up the positive vibes!"],
+      "context": [""]
+  },
+  {
+      "tag": "feeling_sad",
+      "patterns": ["I'm feeling down", "I'm sad", "I'm not doing well"],
+      "responses": ["I'm here for you. Do you want to talk about it?", "I'm sorry to hear that. I'm here to listen."],
+      "context": [""]
+  },
+  {
+      "tag": "small_talk",
+      "patterns": ["What's up?", "What’s going on?", "How's it going?"],
+      "responses": ["Not much, just here to chat with you!", "All good here. How about you?", "Just waiting to help you!"],
+      "context": [""]
+  },
+  {
+      "tag": "compliment_bot",
+      "patterns": ["You're awesome", "I like you", "You're great"],
+      "responses": ["Thank you! You're awesome too!", "I appreciate it!", "You made my day!"],
+      "context": [""]
+  },
+  {
+      "tag": "feeling_tired",
+      "patterns": ["I'm so tired", "I'm exhausted", "I need some rest"],
+      "responses": ["You deserve some rest. Take it easy!", "Make sure to get some relaxation!", "Rest well and recharge."],
+      "context": [""]
+  },
+  {
+      "tag": "weekend_plans",
+      "patterns": ["What are your plans for the weekend?", "Got any weekend plans?", "Doing anything fun this weekend?"],
+      "responses": ["No big plans here. How about you?", "I’ll be here, ready to chat anytime!", "Nothing special planned. What about you?"],
+      "context": [""]
+  },
+  {
+      "tag": "favorite_food",
+      "patterns": ["What's your favorite food?", "Do you like pizza?", "What's your favorite dish?"],
+      "responses": ["I don't eat, but I've heard pizza is pretty popular!", "I'm a fan of anything people enjoy!", "Food is amazing, isn't it?"],
+      "context": [""]
+  },
+  {
+      "tag": "hobbies",
+      "patterns": ["What are your hobbies?", "What do you do for fun?", "Got any interests?"],
+      "responses": ["I enjoy learning new things and chatting with you!", "Helping you out is my favorite pastime.", "I’m all about having conversations!"],
+      "context": [""]
+  },
+  {
+      "tag": "motivation",
+      "patterns": ["I need some motivation", "Can you motivate me?", "I'm feeling unmotivated"],
+      "responses": ["Believe in yourself! You got this!", "Take one step at a time, you’re doing great!", "Remember why you started and keep pushing forward."],
+      "context": [""]
+  },
+  {
+      "tag": "weather_opinion",
+      "patterns": ["I love rainy days", "It's so sunny", "I hate the cold"],
+      "responses": ["Weather can really set the mood, can't it?", "Sounds cozy!", "Each season has its charm!"],
+      "context": [""]
+  },
+  {
+      "tag": "morning_greeting",
+      "patterns": ["Good morning", "Morning", "Hope you have a good day"],
+      "responses": ["Good morning! Hope your day is off to a great start!", "Good morning! How can I assist you today?", "Morning! What's up?"],
+      "context": [""]
+  },
+  {
+      "tag": "evening_greeting",
+      "patterns": ["Good evening", "Evening", "Hope you had a good day"],
+      "responses": ["Good evening! How was your day?", "Good evening! How can I help tonight?", "Evening! What's on your mind?"],
+      "context": [""]
+  },
+  {
+      "tag": "favorite_music",
+      "patterns": ["What's your favorite song?", "Do you like music?", "Got any music preferences?"],
+      "responses": ["I enjoy any music you enjoy!", "Music is wonderful, isn't it?", "What's your favorite genre?"],
+      "context": [""]
+  },
+  {
+      "tag": "personal_goals",
+      "patterns": ["What are your goals?", "What are you trying to achieve?", "Do you have any dreams?"],
+      "responses": ["I strive to be as helpful as possible to you!", "Helping people like you is my main goal!", "My mission is to assist and learn more from you."],
+      "context": [""]
+  },
+  {
+      "tag": "favorite_color",
+      "patterns": ["What's your favorite color?", "Do you have a favorite color?", "What color do you like?"],
+      "responses": ["I don’t have eyes to see colors, but I imagine all colors are beautiful!", "Any color that makes people happy is my favorite!"],
+      "context": [""]
+  },
+  {
+      "tag": "getting_to_know_user",
+      "patterns": ["Tell me about myself", "What do you think of me?", "What do you know about me?"],
+      "responses": ["You're someone I enjoy chatting with!", "You seem like a great person!", "I’m here to get to know you more as we chat!"],
+      "context": [""]
+  },
+  {
+      "tag": "feeling_anxious",
+      "patterns": ["I'm feeling anxious", "I'm worried", "I'm stressed out"],
+      "responses": ["I'm here for you. Take deep breaths and take things one step at a time.", "Try to focus on the present. You've got this!"],
+      "context": [""]
+  },
+  {
+      "tag": "plans_for_today",
+      "patterns": ["What are your plans for today?", "Got any plans today?", "Anything special planned?"],
+      "responses": ["I’ll be here, ready to chat with you!", "Just hoping to have some good conversations.", "I'm here for whatever you need!"],
+      "context": [""]
+  },
+  {
+      "tag": "advice",
+      "patterns": ["I need advice", "Can you give me some advice?", "I could use some guidance"],
+      "responses": ["I’ll do my best! What do you need help with?", "I’m here to help in any way I can."],
+      "context": [""]
+  },
+  {
+      "tag": "congratulations",
+      "patterns": ["I got promoted", "I achieved something", "I have good news"],
+      "responses": ["Congratulations! That's amazing!", "I’m so happy for you! Keep up the great work!", "Way to go! That’s awesome news!"],
+      "context": [""]
+  },
+  {
+   "tag": "feeling_anxious",
+   "patterns": ["I'm feeling anxious", "I'm worried", "I feel tense"],
+   "responses": ["Take a deep breath. I'm here with you.", "It's okay to feel anxious sometimes. Would you like to talk about what's making you feel this way?"],
+   "context": [""]
+},
+{
+   "tag": "feeling_sad",
+   "patterns": ["I'm feeling sad", "I'm down", "I feel lonely"],
+   "responses": ["I'm here for you. Want to share what's on your mind?", "It's okay to feel sad. I'm here to listen."],
+   "context": [""]
+},
+{
+   "tag": "feeling_stressed",
+   "patterns": ["I'm stressed", "I have too much going on", "I'm overwhelmed"],
+   "responses": ["Take things one step at a time. You’re doing great.", "It sounds like a lot. Remember to take breaks and be kind to yourself."],
+   "context": [""]
+},
+{
+   "tag": "feeling_lonely",
+   "patterns": ["I feel lonely", "I'm alone", "I have no one to talk to"],
+   "responses": ["I'm here with you. You’re not alone.", "Loneliness can be hard, but talking helps. I'm here to listen."],
+   "context": [""]
+},
+{
+   "tag": "need_encouragement",
+   "patterns": ["I need some encouragement", "Can you motivate me?", "I feel like giving up"],
+   "responses": ["You're stronger than you think. One step at a time!", "You've come so far; keep going! I'm cheering for you."],
+   "context": [""]
+},
+{
+   "tag": "self_care_reminder",
+   "patterns": ["I don't feel like taking care of myself", "I’m not motivated to do anything", "I don't have the energy for self-care"],
+   "responses": ["Sometimes small steps can help. Even a few minutes of self-care can make a difference.", "Remember, even a small act of self-care is a step forward. You’re worth it."],
+   "context": [""]
+},
+{
+   "tag": "feeling_unloved",
+   "patterns": ["I feel unloved", "Nobody cares about me", "I'm not important"],
+   "responses": ["You are valued and worthy of love. I'm here for you.", "You’re important. Sometimes, it’s hard to see, but there are people who care about you."],
+   "context": [""]
+},
+{
+   "tag": "handling_failure",
+   "patterns": ["I feel like a failure", "I keep messing up", "I'm not good enough"],
+   "responses": ["Failure is part of growth. Each step, even the hard ones, helps you learn and grow.", "Everyone makes mistakes. Be kind to yourself—you're doing your best."],
+   "context": [""]
+},
+{
+   "tag": "breathing_exercise",
+   "patterns": ["I need to calm down", "Help me relax", "I'm feeling tense"],
+   "responses": ["Let's take a moment to breathe together. Inhale slowly, hold, and exhale. Repeat a few times. Feel a bit better?", "Deep breathing can help. Try inhaling for four counts, holding for four, and exhaling for four. Let me know if that helps!"],
+   "context": [""]
+},
+{
+   "tag": "positive_affirmations",
+   "patterns": ["I need some positive affirmations", "Can you give me affirmations?", "I want to feel more positive"],
+   "responses": ["You are capable and resilient. Believe in yourself!", "You are enough, just as you are."],
+   "context": [""]
+},
+{
+   "tag": "need_hugs",
+   "patterns": ["I need a hug", "Can you give me a hug?", "I wish someone would hold me"],
+   "responses": ["Sending you a big virtual hug! You’re not alone.", "Consider this a warm, comforting hug from me to you. I'm here for you."],
+   "context": [""]
+},
+{
+   "tag": "support_in_grief",
+   "patterns": ["I lost someone", "I'm grieving", "I feel heartbroken"],
+   "responses": ["I'm so sorry for your loss. Grieving takes time, and I'm here if you want to talk.", "Loss is incredibly difficult. Take your time to heal, and know that I'm here with you."],
+   "context": [""]
+},
+{
+   "tag": "self_acceptance",
+   "patterns": ["I don't like myself", "I feel insecure", "I wish I were different"],
+   "responses": ["It's okay to have insecurities, but remember you are unique and valuable.", "Embracing yourself as you are is a journey. Be patient and kind to yourself."],
+   "context": [""]
+},
+{
+   "tag": "appreciation",
+   "patterns": ["Thank you for listening", "I feel better now", "Thanks for being here"],
+   "responses": ["I'm glad I could help. Remember, I'm always here for you.", "You’re very welcome! I'm here whenever you need me."],
+   "context": [""]
+},
+{
+   "tag": "feeling_afraid",
+   "patterns": ["I'm scared", "I feel afraid", "I'm nervous"],
+   "responses": ["It's okay to feel scared. You're not alone in this.", "I'm here with you. Take it one moment at a time."],
+   "context": [""]
+},
+{
+   "tag": "sleep_troubles",
+   "patterns": ["I can't sleep", "I'm having trouble sleeping", "I need help falling asleep"],
+   "responses": ["Try relaxing your body and mind. Sometimes reading or listening to calming sounds helps.", "Breathing exercises or meditation can be helpful before bed. Have you tried that?"],
+   "context": [""]
+},
+{
+   "tag": "feeling_angry",
+   "patterns": ["I'm angry", "I feel frustrated", "I'm mad"],
+   "responses": ["Anger can be a powerful emotion. Try taking deep breaths to cool down.", "It's okay to feel angry. I'm here to listen, so feel free to share what's on your mind."],
+   "context": [""]
+},
+{
+   "tag": "self_doubt",
+   "patterns": ["I don't believe in myself", "I feel like I'm not good enough", "I can't do it"],
+   "responses": ["You are capable of more than you realize. Take it one step at a time.", "Doubts are normal. Trust yourself; you’re stronger than you think."],
+   "context": [""]
+},
+{
+   "tag": "gratitude",
+   "patterns": ["I'm grateful for", "Today, I'm thankful", "I feel thankful"],
+   "responses": ["Gratitude is wonderful! What are you feeling thankful for today?", "That’s amazing! Reflecting on gratitude can be so uplifting."],
+   "context": [""]
+},
+{
+   "tag": "reassurance",
+   "patterns": ["Will things get better?", "I feel hopeless", "Is there any hope?"],
+   "responses": ["Things can improve with time. You're not alone on this journey.", "Hold on to hope. The present moment might be tough, but brighter days are ahead."],
+   "context": [""]
+},
+{
+   "tag": "feeling_happy",
+   "patterns": ["I'm feeling happy", "I'm in a great mood", "Today is amazing"],
+   "responses": ["That's fantastic! What's making you feel so good?", "I love hearing that! Keep those positive vibes going!", "Yay! I'm so glad to hear that you're happy!"],
+   "context": [""]
+},
+{
+   "tag": "celebrate_success",
+   "patterns": ["I achieved my goal", "I finished my project", "I reached my target"],
+   "responses": ["Congratulations! You should be so proud!", "That's amazing! Great job on your success!", "Way to go! Keep up the fantastic work!"],
+   "context": [""]
+},
+{
+   "tag": "good_day",
+   "patterns": ["I'm having a good day", "Today is going well", "I'm enjoying my day"],
+   "responses": ["That's awesome! Keep enjoying it!", "I'm so glad you're having a good day!", "Good vibes all around! What’s making your day so good?"],
+   "context": [""]
+},
+{
+   "tag": "sharing_good_news",
+   "patterns": ["I have some good news", "Something amazing happened", "I got good news"],
+   "responses": ["Tell me everything! I'm so excited to hear!", "That's fantastic! I'm all ears for your good news!", "Wow, that sounds great! What's the news?"],
+   "context": [""]
+},
+{
+   "tag": "celebrating_birthday",
+   "patterns": ["It's my birthday", "I'm celebrating my birthday", "Today is my birthday"],
+   "responses": ["Happy Birthday! Hope it's filled with joy and fun!", "Wishing you a fantastic birthday celebration!", "Happy Birthday! Hope this year brings you happiness and success!"],
+   "context": [""]
+},
+{
+   "tag": "favorite_memories",
+   "patterns": ["I have a happy memory", "I was thinking about a good time", "I remembered something nice"],
+   "responses": ["That sounds wonderful! Want to share your memory?", "I love happy memories! What's yours?", "It’s so nice to think back on good times! What’s one of your favorites?"],
+   "context": [""]
+},
+{
+   "tag": "feeling_grateful",
+   "patterns": ["I'm feeling grateful", "I'm thankful for everything", "I feel blessed"],
+   "responses": ["That's such a wonderful feeling. Gratitude makes life so much brighter!", "Being grateful is such a beautiful mindset!", "I'm glad you're feeling grateful. Life has so many blessings!"],
+   "context": [""]
+},
+{
+   "tag": "jokes",
+   "patterns": ["Tell me a joke", "I want to hear something funny", "Do you know any jokes?"],
+   "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!", "What’s a computer’s favorite snack? Microchips!", "Why don't skeletons fight each other? They don’t have the guts!"],
+   "context": [""]
+},
+{
+   "tag": "excited_for_future",
+   "patterns": ["I'm excited for what's next", "The future looks bright", "I'm looking forward to tomorrow"],
+   "responses": ["That's a great mindset! Exciting things are ahead!", "I'm thrilled for you! The future holds so much promise!", "You’re right; the best is yet to come! Keep that excitement going!"],
+   "context": [""]
+},
+{
+   "tag": "favorite_activities",
+   "patterns": ["I love going to the beach", "I enjoy cooking", "I like reading books"],
+   "responses": ["That sounds like so much fun! What’s your favorite thing about it?", "I love hearing about your hobbies! What's your favorite thing to cook/read/do?", "That’s awesome! What kind of books/beach trips do you enjoy the most?"],
+   "context": [""]
+},
+{
+   "tag": "talking_about_hobbies",
+   "patterns": ["My hobby is painting", "I like playing the guitar", "I enjoy hiking"],
+   "responses": ["That sounds so fun and creative! How long have you been doing it?", "That's a great hobby! I’d love to hear more about it!", "That’s fantastic! Hobbies are such a great way to enjoy life!"],
+   "context": [""]
+},
+{
+   "tag": "looking_forward_to_weekend",
+   "patterns": ["I can't wait for the weekend", "I'm looking forward to Friday", "Weekend plans are the best"],
+   "responses": ["The weekend is always a good time to relax! Got any fun plans?", "Exciting! Weekends are for recharging and having fun!", "I hope you have a fantastic weekend ahead!"],
+   "context": [""]
+},
+{
+   "tag": "favorite_places",
+   "patterns": ["I love the mountains", "The beach is my favorite", "I enjoy the city life"],
+   "responses": ["That sounds like such a beautiful place to spend time!", "It's so wonderful to have favorite spots to unwind!", "That place sounds amazing! What do you love most about it?"],
+   "context": [""]
+},
+{
+   "tag": "feeling_inspired",
+   "patterns": ["I feel inspired", "I have so many ideas", "I'm feeling creative"],
+   "responses": ["That’s amazing! Inspiration is so powerful!", "Sounds like you’re ready to do amazing things!", "That’s the best feeling! What inspired you today?"],
+   "context": [""]
+},
+{
+   "tag": "random_fun_fact",
+   "patterns": ["Tell me a fun fact", "Give me something interesting", "Share a random fact"],
+   "responses": ["Did you know honey never spoils? It can last for thousands of years!", "Octopuses have three hearts! Isn't that amazing?", "Bananas are berries, but strawberries aren’t! Funny, right?"],
+   "context": [""]
+},
+{
+   "tag": "positive_affirmations",
+   "patterns": ["I feel great about myself", "I'm confident today", "I feel strong"],
+   "responses": ["That's wonderful! Confidence suits you!", "Keep that confidence up! You’re doing amazing!", "You’re absolutely right! You have so much to be proud of."],
+   "context": [""]
+},
+{
+   "tag": "support_others",
+   "patterns": ["I helped someone today", "I volunteered", "I made someone smile"],
+   "responses": ["That’s so kind of you! Making a positive impact is wonderful!", "You’re spreading positivity! Keep it up!", "That’s amazing! You’re making the world brighter!"],
+   "context": [""]
+},
+{
+   "tag": "favorite_music",
+   "patterns": ["I love listening to music", "My favorite genre is jazz", "Music makes me happy"],
+   "responses": ["Music is so uplifting! What songs are you enjoying?", "That sounds like a great genre! Any recommendations?", "Music has a way of making everything better, right?"],
+   "context": [""]
+},
+{
+   "tag": "random_kindness",
+   "patterns": ["I did something nice today", "I gave someone a compliment", "I made someone’s day"],
+   "responses": ["You’re spreading such kindness! Keep it up!", "That's so thoughtful of you. Small acts of kindness make a big difference!", "You're amazing for doing that! It’s wonderful to spread positivity!"],
+   "context": [""]
+},
+{
+   "tag": "enjoying_nature",
+   "patterns": ["I love being in nature", "Nature makes me feel happy", "I enjoy the outdoors"],
+   "responses": ["Nature is so refreshing! What's your favorite outdoor spot?", "Being in nature is wonderful for the soul.", "The outdoors have such a peaceful vibe, right?"],
+   "context": [""]
+}, {
+   "tag": "morning_greeting",
+   "patterns": ["Good morning", "Morning", "Rise and shine"],
+   "responses": ["Good morning! Hope you have a fantastic day ahead!", "Morning! What are your plans for today?", "Good morning! How did you sleep?"],
+   "context": [""]
+},
+{
+   "tag": "afternoon_greeting",
+   "patterns": ["Good afternoon", "Afternoon", "Hope your afternoon is going well"],
+   "responses": ["Good afternoon! How's your day going so far?", "Afternoon! Got anything planned for the rest of the day?", "Hope you’re having a great afternoon!"],
+   "context": [""]
+},
+{
+   "tag": "evening_greeting",
+   "patterns": ["Good evening", "Evening", "Hope your evening is nice"],
+   "responses": ["Good evening! How was your day?", "Evening! Did you do anything exciting today?", "Hope you're having a relaxing evening!"],
+   "context": [""]
+},
+{
+   "tag": "asking_for_weather",
+   "patterns": ["How's the weather?", "Is it sunny today?", "What's the weather like?"],
+   "responses": ["I hope the weather is nice where you are! Any plans to enjoy it?", "I’d suggest checking a weather app. Hope it’s just the way you like it!", "Whether it’s sunny or rainy, I hope you have a great day!"],
+   "context": [""]
+},
+{
+   "tag": "checking_time",
+   "patterns": ["What time is it?", "Can you tell me the time?", "Do you know the time?"],
+   "responses": ["I don’t have a clock, but it’s always a good time to chat with you!", "For the exact time, your device should help, but I’m here anytime!", "Time flies when we’re chatting! What’s on your schedule?"],
+   "context": [""]
+},
+{
+   "tag": "daily_routine",
+   "patterns": ["How’s your day going?", "What did you do today?", "What are you up to?"],
+   "responses": ["Just here, chatting with you! How about you?", "Nothing much, just waiting to have great conversations!", "I’m here to help and chat! What’s been the highlight of your day?"],
+   "context": [""]
+},
+{
+   "tag": "eating_meals",
+   "patterns": ["I'm having lunch", "I just ate breakfast", "Dinner time for me"],
+   "responses": ["Yum! What are you having?", "Sounds delicious! Hope you enjoy it!", "Enjoy your meal! What’s on the menu?"],
+   "context": [""]
+},
+{
+   "tag": "talking_about_health",
+   "patterns": ["I feel healthy", "I'm working out", "Trying to eat better"],
+   "responses": ["That’s awesome! Taking care of yourself is so important.", "Good for you! It’s amazing to hear you’re focusing on health.", "Staying healthy is a great goal. Keep it up!"],
+   "context": [""]
+},
+{
+   "tag": "weekend_plans",
+   "patterns": ["Got any weekend plans?", "What should I do this weekend?", "Looking forward to the weekend"],
+   "responses": ["Weekends are great for relaxing or trying something new! Any ideas?", "Hope your weekend is fun and refreshing! Got anything exciting planned?", "The weekend is perfect for unwinding or adventure! What are you thinking?"],
+   "context": [""]
+},
+{
+   "tag": "asking_for_recommendations",
+   "patterns": ["What movie should I watch?", "Can you suggest a book?", "Any good music to listen to?"],
+   "responses": ["How about something classic? Or maybe something you haven’t tried before?", "I’d say go with a genre you love, or explore something new!", "Recommendations are fun! What type of movie/book/music are you in the mood for?"],
+   "context": [""]
+},
+{
+   "tag": "news_and_current_events",
+   "patterns": ["What's in the news?", "Any current events?", "What's going on in the world?"],
+   "responses": ["You can find up-to-date news online. Anything specific you're curious about?", "There's always something new happening! What are you interested in?", "I’d recommend checking a news source. Anything in particular you’re following?"],
+   "context": [""]
+},
+{
+   "tag": "discussing_travel",
+   "patterns": ["I want to travel", "Any travel tips?", "I love exploring new places"],
+   "responses": ["Travel is exciting! Do you have a destination in mind?", "Exploring new places is wonderful! Where do you want to go?", "Travel opens up so many experiences. Have any place in mind?"],
+   "context": [""]
+},
+{
+   "tag": "talking_about_pets",
+   "patterns": ["I have a pet", "I love animals", "My dog is so cute"],
+   "responses": ["Pets are the best! What kind do you have?", "Animals bring so much joy. What’s your pet’s name?", "Aww, pets are wonderful companions! What do you love most about yours?"],
+   "context": [""]
+},
+{
+   "tag": "talking_about_family",
+   "patterns": ["I spent time with my family", "Family means a lot to me", "I love family gatherings"],
+   "responses": ["Family time is so precious. What did you do together?", "That’s wonderful! Spending time with family is so meaningful.", "Family gatherings are always special! Any fun stories to share?"],
+   "context": [""]
+},
+{
+   "tag": "hobbies",
+   "patterns": ["I'm learning a new skill", "I picked up a new hobby", "I enjoy painting"],
+   "responses": ["That sounds amazing! How's it going so far?", "New hobbies are so refreshing! What do you enjoy about it?", "Learning something new is fantastic! Keep it up!"],
+   "context": [""]
+},
+{
+   "tag": "plans_for_evening",
+   "patterns": ["What are you doing tonight?", "Any evening plans?", "What should I do this evening?"],
+   "responses": ["How about relaxing with a good movie or book?", "Evenings are great for unwinding. Any ideas?", "Maybe spend time doing something you enjoy. Got any ideas?"],
+   "context": [""]
+},
+{
+   "tag": "checking_in",
+   "patterns": ["How are you?", "How's it going?", "What's up?"],
+   "responses": ["I'm here and ready to chat with you!", "All good on my end! How about you?", "I’m always here if you need anything! How’s your day going?"],
+   "context": [""]
+},
+{
+   "tag": "feeling_accomplished",
+   "patterns": ["I completed my tasks", "I finished my work", "I feel productive"],
+   "responses": ["Nice job! That must feel great!", "Well done! Finishing tasks is so satisfying.", "Awesome! You’ve earned some time to relax."],
+   "context": [""]
+},
+{
+   "tag": "talking_about_week",
+   "patterns": ["It’s been a long week", "Looking forward to the weekend", "This week was busy"],
+   "responses": ["Sounds like you’ve had a full week. Hope you can relax soon!", "Busy weeks can be exhausting. Hope you get some rest!", "It’s always nice to unwind after a busy week! Any plans?"],
+   "context": [""]
+},
+{
+   "tag": "night_greeting",
+   "patterns": ["Good night", "Going to bed", "Sleep well"],
+   "responses": ["Good night! Sweet dreams!", "Rest well! Have a peaceful night!", "Good night! Hope tomorrow is amazing!"],
+   "context": [""]
+},
+{
+   "tag": "movie_recommendation",
+   "patterns": ["Suggest a movie", "What movie should I watch?", "Any good movie recommendations?"],
+   "responses": ["How about watching a classic, or maybe a new release in your favorite genre?", "If you're into thrillers, try something suspenseful! If you want to relax, maybe a comedy?", "How about something inspirational or light-hearted? Let me know your genre, and I can help more!"],
+   "context": [""]
+},
+{
+   "tag": "book_recommendation",
+   "patterns": ["Any book suggestions?", "What book should I read?", "Recommend me a book"],
+   "responses": ["For something light, try a novel! If you're into non-fiction, maybe a recent bestseller?", "Reading is great! What genre are you in the mood for? Mystery, adventure, or maybe something motivational?", "I'd suggest a classic or a recent popular release! What type of story do you enjoy?"],
+   "context": [""]
+},
+{
+   "tag": "music_recommendation",
+   "patterns": ["Suggest some music", "What music should I listen to?", "Any good music recommendations?"],
+   "responses": ["Try exploring some jazz or classical for a change, or maybe upbeat pop for energy!", "How about a playlist with a theme? Road trip, relaxation, or focus music?", "I'd recommend checking out a genre you don't usually listen to!"],
+   "context": [""]
+},
+{
+   "tag": "weekend_activity",
+   "patterns": ["What should I do this weekend?", "Any weekend plans ideas?", "Suggest a weekend activity"],
+   "responses": ["How about trying something outdoors, like a hike or a picnic?", "You could try a DIY project, bake something new, or explore a nearby town!", "Maybe a relaxing spa day or catching up on that book you wanted to finish?"],
+   "context": [""]
+},
+{
+   "tag": "relaxation_idea",
+   "patterns": ["I need to relax", "How can I unwind?", "Any relaxation tips?"],
+   "responses": ["A nice warm bath, some calming music, or a meditation session might help!", "How about a slow evening with your favorite movie or book?", "You could try deep breathing, journaling, or even a short walk to clear your mind."],
+   "context": [""]
+},
+{
+   "tag": "exercise_suggestion",
+   "patterns": ["What workout should I try?", "Any exercise ideas?", "Suggest a good workout"],
+   "responses": ["How about a short yoga session, or maybe some strength training?", "A brisk walk or a quick cardio routine can be refreshing!", "If you’re up for it, a mix of stretching and light cardio can do wonders."],
+   "context": [""]
+},
+{
+   "tag": "productivity_tip",
+   "patterns": ["How can I be more productive?", "Any productivity tips?", "Help me stay focused"],
+   "responses": ["Try making a to-do list and focus on one task at a time.", "Setting small goals and taking breaks in between can be helpful!", "Organize your workspace and remove distractions. Also, a timer can keep you focused!"],
+   "context": [""]
+},
+{
+   "tag": "self_improvement",
+   "patterns": ["How can I improve myself?", "Any self-improvement tips?", "Help me grow as a person"],
+   "responses": ["Try setting daily or weekly goals, like learning something new!", "Reading, meditating, or even journaling can make a difference.", "Focus on gratitude, building habits, and exploring new perspectives!"],
+   "context": [""]
+},
+{
+   "tag": "food_recommendation",
+   "patterns": ["What should I cook?", "Suggest a recipe", "Any food ideas?"],
+   "responses": ["How about something simple and hearty, like a pasta or stir-fry?", "You could try a new recipe, maybe something from another cuisine?", "If you're feeling adventurous, try baking! Or maybe a new salad?"],
+   "context": [""]
+},
+{
+   "tag": "travel_suggestion",
+   "patterns": ["Where should I travel?", "Suggest a vacation spot", "Any travel ideas?"],
+   "responses": ["How about a quiet nature retreat or a visit to a nearby historic site?", "You could explore a new city, try the mountains, or hit the beach!", "If you're up for an adventure, try a place you've never considered before!"],
+   "context": [""]
+},
+{
+   "tag": "goal_setting",
+   "patterns": ["How do I set goals?", "Help me set goals", "Any tips on goal setting?"],
+   "responses": ["Start with small, achievable goals, and build up from there.", "Try making SMART goals: Specific, Measurable, Achievable, Relevant, and Time-bound.", "Break down bigger goals into smaller steps and track your progress!"],
+   "context": [""]
+},
+{
+   "tag": "career_advice",
+   "patterns": ["I need career advice", "How can I advance in my career?", "Any tips for career growth?"],
+   "responses": ["Networking and continuous learning can make a big difference.", "Set clear goals and seek feedback from mentors and peers.", "Focusing on skill-building and adaptability is key in most careers."],
+   "context": [""]
+},
+{
+   "tag": "study_tips",
+   "patterns": ["Help me study", "Any tips for studying?", "How can I study better?"],
+   "responses": ["Try studying in short, focused sessions with breaks in between.", "Use active recall and practice problems to strengthen memory.", "Create a study schedule and stick to a consistent routine."],
+   "context": [""]
+},
+{
+   "tag": "sleep_better",
+   "patterns": ["I need to sleep better", "Any tips for good sleep?", "Help me improve my sleep"],
+   "responses": ["Try to avoid screens before bed and relax with a book or music.", "Establish a consistent sleep routine, even on weekends.", "Reduce caffeine in the evening and keep your room cool and dark."],
+   "context": [""]
+},
+{
+   "tag": "gift_ideas",
+   "patterns": ["Any gift suggestions?", "What should I buy as a gift?", "Suggest a gift idea"],
+   "responses": ["Think about their hobbies or something they need.", "Personalized gifts like photo frames or a handwritten note are thoughtful!", "A book, plant, or a cozy item like a blanket could be nice!"],
+   "context": [""]
+},
+{
+   "tag": "daily_routine_tips",
+   "patterns": ["Help me build a routine", "Any daily routine tips?", "How to make a good routine?"],
+   "responses": ["Start with a morning and evening routine to set a rhythm.", "Focus on adding habits gradually, like reading or a short walk.", "Organize tasks based on priority and include breaks for balance."],
+   "context": [""]
+},
+{
+   "tag": "brainstorming",
+   "patterns": ["Help me brainstorm", "I need ideas for a project", "Any creative ideas?"],
+   "responses": ["Start with a mind map and write down anything that comes to mind.", "Think of similar projects or topics for inspiration!", "Take a short break, sometimes ideas flow when you’re relaxed."],
+   "context": [""]
+},
+{
+   "tag": "conversation_starters",
+   "patterns": ["Any conversation starters?", "How can I start a conversation?", "Help me talk to people"],
+   "responses": ["Ask about their hobbies or favorite activities!", "People love talking about their passions and pets. You can start there!", "You could begin with a compliment or ask about something they enjoy."],
+   "context": [""]
+},
+{
+   "tag": "home_activities",
+   "patterns": ["What can I do at home?", "Any ideas for staying busy at home?", "Help me with home activities"],
+   "responses": ["Try a new recipe, start a journal, or organize a space!", "Home workouts, online classes, or even a virtual museum tour can be fun!", "How about learning a new skill, like painting or calligraphy?"],
+   "context": [""]
+},
+{
+   "tag": "personal_growth",
+   "patterns": ["How can I grow as a person?", "Any personal growth tips?", "Help me improve myself"],
+   "responses": ["Try setting small goals that push you just outside your comfort zone.", "Learning, reflection, and gratitude can help with growth.", "Focus on building healthy habits and self-awareness."],
+   "context": [""]
+},
+{
+   "tag": "motivation_morning",
+   "patterns": ["Motivate me this morning", "Morning inspiration", "Start my day with motivation"],
+   "responses": ["Rise and shine! Today is a new opportunity to achieve great things!", "Good morning! Remember, every day is a chance to grow.", "Start your day with positivity and watch how it transforms everything!"],
+   "context": [""]
+},
+{
+   "tag": "motivation_afternoon",
+   "patterns": ["Afternoon motivation", "Help me push through the day", "Need some energy this afternoon"],
+   "responses": ["You're halfway through the day—keep pushing, you’re doing great!", "This afternoon is yours! Take a deep breath and keep going strong.", "Remember, the best work often comes in the second half! You've got this!"],
+   "context": [""]
+},
+{
+   "tag": "motivation_evening",
+   "patterns": ["Evening motivation", "End the day with inspiration", "Wrap up my day positively"],
+   "responses": ["Reflect on all you accomplished today. Even small wins matter!", "End your day on a positive note, and be proud of yourself.", "As you wrap up, remember that rest is also productive! Recharge and be ready for tomorrow."],
+   "context": [""]
+},
+{
+   "tag": "overcoming_challenges",
+   "patterns": ["I'm facing challenges", "Help me through tough times", "I feel discouraged"],
+   "responses": ["Remember, challenges are what make us stronger. Keep going!", "Every challenge is a chance to grow and learn.", "Don't give up; tough times don't last, but resilient people do."],
+   "context": [""]
+},
+{
+   "tag": "self_confidence",
+   "patterns": ["I need confidence", "Help me feel better about myself", "Boost my self-esteem"],
+   "responses": ["Believe in yourself; you're capable of amazing things!", "Confidence comes from taking small steps each day. You can do it!", "You are unique, strong, and have so much to offer the world."],
+   "context": [""]
+},
+{
+   "tag": "quotes_gratitude",
+   "patterns": ["Give me a quote on gratitude", "Help me appreciate life", "Gratitude quotes"],
+   "responses": ["'Gratitude turns what we have into enough.'", "'Gratitude is the fairest blossom that springs from the soul.'", "'Be thankful for what you have; you'll end up having more.'"],
+   "context": [""]
+},
+{
+   "tag": "quotes_persistence",
+   "patterns": ["Quotes on persistence", "Help me keep going", "Persistence quotes"],
+   "responses": ["'Success is not final, failure is not fatal: It is the courage to continue that counts.' – Winston Churchill", "'Perseverance is failing 19 times and succeeding the 20th.' – Julie Andrews", "'Keep going, because you did not come this far only to come this far.'"],
+   "context": [""]
+},
+{
+   "tag": "positive_thinking",
+   "patterns": ["Help me think positively", "I need some positive thoughts", "Share positive thinking quotes"],
+   "responses": ["'A positive mindset brings positive things.'", "'The only limit to our realization of tomorrow is our doubts of today.' – FDR", "'Believe you can and you're halfway there.' – Theodore Roosevelt"],
+   "context": [""]
+},
+{
+   "tag": "quotes_resilience",
+   "patterns": ["Quotes on resilience", "I need resilience", "How to stay strong"],
+   "responses": ["'Resilience is knowing that you are the only one that has the power and responsibility to pick yourself up.'", "'Strength does not come from winning. Your struggles develop your strengths.'", "'Resilience is the ability to turn obstacles into opportunities.'"],
+   "context": [""]
+},
+{
+   "tag": "career_motivation",
+   "patterns": ["Motivate me for my career", "Help me stay focused on work", "Inspire me for professional growth"],
+   "responses": ["'Choose a job you love, and you will never have to work a day in your life.'", "'Success usually comes to those who are too busy to be looking for it.'", "'Dream big, work hard, stay focused, and surround yourself with good people.'"],
+   "context": [""]
+},
+{
+   "tag": "health_motivation",
+   "patterns": ["Help me stay healthy", "Motivate me to exercise", "Inspire me to eat well"],
+   "responses": ["'Take care of your body. It’s the only place you have to live.' – Jim Rohn", "'Health is wealth.'", "'Your body is a temple, but only if you treat it as one.'"],
+   "context": [""]
+},
+{
+   "tag": "success_quotes",
+   "patterns": ["Quotes on success", "Inspire me to be successful", "Success motivation"],
+   "responses": ["'Success is not the key to happiness. Happiness is the key to success.' – Albert Schweitzer", "'Don't watch the clock; do what it does. Keep going.'", "'Success is the sum of small efforts, repeated day-in and day-out.'"],
+   "context": [""]
+},
+{
+   "tag": "hope_quotes",
+   "patterns": ["Give me a quote on hope", "I need some hope", "Inspire me with hope"],
+   "responses": ["'Hope is being able to see that there is light despite all of the darkness.' – Desmond Tutu", "'Once you choose hope, anything is possible.' – Christopher Reeve", "'Hope is the only thing stronger than fear.'"],
+   "context": [""]
+},
+{
+   "tag": "self_love",
+   "patterns": ["Help me love myself", "I need self-love quotes", "Inspire me to accept myself"],
+   "responses": ["'Love yourself first, and everything else falls into line.'", "'You are enough just as you are.'", "'To love oneself is the beginning of a lifelong romance.' – Oscar Wilde"],
+   "context": [""]
+},
+{
+   "tag": "quotes_on_change",
+   "patterns": ["Give me a quote on change", "Help me deal with change", "Change quotes"],
+   "responses": ["'Change is the only constant in life.'", "'Don't fear change; embrace it as an opportunity for growth.'", "'If you want to make the world a better place, start with the change within yourself.'"],
+   "context": [""]
+},
+{
+   "tag": "kindness_quotes",
+   "patterns": ["Give me a quote on kindness", "Inspire me to be kind", "Help me spread kindness"],
+   "responses": ["'No act of kindness, no matter how small, is ever wasted.'", "'Kindness is the language which the deaf can hear and the blind can see.' – Mark Twain", "'Carry out a random act of kindness, with no expectation of reward.'"],
+   "context": [""]
+},
+{
+   "tag": "quotes_about_goals",
+   "patterns": ["Help me set goals", "I need goal-setting quotes", "Quotes about goals"],
+   "responses": ["'Goals are dreams with deadlines.'", "'Setting goals is the first step in turning the invisible into the visible.'", "'A goal without a plan is just a wish.'"],
+   "context": [""]
+},
+{
+   "tag": "gratitude_reminder",
+   "patterns": ["Remind me to be grateful", "Help me practice gratitude", "Gratitude motivation"],
+   "responses": ["Take a moment to think about what you’re grateful for today.", "Gratitude helps us see what we already have in abundance.", "Reflecting on gratitude can bring so much peace to the mind and heart."],
+   "context": [""]
+},
+{
+   "tag": "believe_in_yourself",
+   "patterns": ["Help me believe in myself", "I need confidence", "Believe in yourself quotes"],
+   "responses": ["'Believe you can and you're halfway there.' – Theodore Roosevelt", "'Self-belief is the first step toward success.'", "'Believe in yourself and all that you are.'"],
+   "context": [""]
+},
+{
+   "tag": "features_motivation_quotes",
+   "patterns": ["Can you give me motivation?", "Do you have motivational quotes?", "Can you inspire me?"],
+   "responses": ["Absolutely! I can share motivational quotes to lift your spirits. Just let me know if you need one for morning, afternoon, or anytime!", "Yes, I can provide motivation whenever you need it. Ask for quotes on resilience, success, positivity, or overcoming challenges."],
+   "context": [""]
+},
+{
+   "tag": "features_daily_suggestions",
+   "patterns": ["Can you suggest something to do?", "What activities can you recommend?", "Give me a suggestion for today"],
+   "responses": ["I can suggest activities, like trying a new hobby, relaxing routines, or even weekend plans. Let me know what you’re interested in!", "Yes! I can give you ideas for activities, workouts, productivity tips, and more."],
+   "context": [""]
+},
+{
+   "tag": "features_quotes",
+   "patterns": ["Can you share quotes?", "Do you know any quotes?", "Can you give me a quote?"],
+   "responses": ["Of course! I have a range of quotes on topics like positivity, resilience, kindness, and success. Just tell me the theme you’re interested in!", "Yes! I can share quotes on hope, gratitude, kindness, and more. Let me know which one you need!"],
+   "context": [""]
+},
+{
+   "tag": "features_book_recommendations",
+   "patterns": ["Can you suggest a book?", "Do you have book recommendations?", "What books do you recommend?"],
+   "responses": ["I can recommend books in various genres like self-help, fiction, or even business! Just let me know what you're in the mood to read.", "Sure! Let me know your preferred genre, and I'll suggest some great reads."],
+   "context": [""]
+},
+{
+   "tag": "features_movie_recommendations",
+   "patterns": ["Can you recommend a movie?", "What movies can I watch?", "Do you know any good movies?"],
+   "responses": ["Absolutely! I can suggest movies based on your favorite genre, mood, or theme.", "Yes! Let me know what type of movie you're interested in, and I can give you some great recommendations."],
+   "context": [""]
+},
+{
+   "tag": "features_study_tips",
+   "patterns": ["Can you help me study?", "Do you have study tips?", "What study tips can you give?"],
+   "responses": ["Yes! I can provide study tips on time management, focus strategies, and effective learning techniques.", "I’d love to help! I can offer tips on staying organized, study methods, and motivation to keep you going."],
+   "context": [""]
+},
+{
+   "tag": "features_goal_setting",
+   "patterns": ["Can you help me set goals?", "Do you know how to set goals?", "Can you assist with goal setting?"],
+   "responses": ["Definitely! I can share tips on setting achievable goals and keeping track of your progress.", "Yes! I can guide you on breaking down big goals into smaller steps to stay on track."],
+   "context": [""]
+},
+{
+   "tag": "features_health_motivation",
+   "patterns": ["Can you motivate me to stay healthy?", "Do you have health tips?", "Can you inspire me to exercise?"],
+   "responses": ["Sure! I can share motivational quotes and tips to keep you inspired to stay active and take care of yourself.", "Yes! I can give you tips on healthy habits, exercising, and staying energized."],
+   "context": [""]
+},
+{
+   "tag": "features_food_recommendations",
+   "patterns": ["Can you suggest something to cook?", "Do you have recipe ideas?", "Can you help me decide what to eat?"],
+   "responses": ["Absolutely! I can recommend recipes based on your mood, dietary preferences, or cooking skills.", "Yes! I have ideas for meals, snacks, and even quick recipes for busy days."],
+   "context": [""]
+},
+{
+   "tag": "features_routine_building",
+   "patterns": ["Can you help me build a routine?", "Do you have routine suggestions?", "Can you assist with creating a daily schedule?"],
+   "responses": ["Yes! I can suggest ways to structure your day with a morning and evening routine, focus tips, and time for self-care.", "I’d be happy to help! I can offer tips on creating a balanced routine for productivity and relaxation."],
+   "context": [""]
+},
+{
+   "tag": "features_travel_ideas",
+   "patterns": ["Can you suggest a place to travel?", "Do you have vacation ideas?", "What travel recommendations can you give?"],
+   "responses": ["Definitely! I can recommend travel ideas based on relaxation, adventure, or sightseeing.", "Yes! Whether you're looking for a quiet retreat or an exciting adventure, I have suggestions for you."],
+   "context": [""]
+},
+{
+   "tag": "features_conversation_starters",
+   "patterns": ["Can you help me start a conversation?", "Do you have conversation tips?", "Can you give me conversation starters?"],
+   "responses": ["Sure! I can provide conversation starters and tips on how to keep conversations engaging and friendly.", "Yes! I can suggest ways to break the ice and talk to people confidently."],
+   "context": [""]
+},
+{
+   "tag": "features_gift_ideas",
+   "patterns": ["Can you suggest a gift?", "Do you have gift ideas?", "Can you help me choose a gift?"],
+   "responses": ["Of course! I can suggest gift ideas based on the person’s interests and the occasion.", "Yes! Let me know who it's for, and I can help with creative and thoughtful gift ideas."],
+   "context": [""]
+},
+{
+   "tag": "features_relaxation_tips",
+   "patterns": ["Can you help me relax?", "Do you have tips for unwinding?", "What relaxation tips do you have?"],
+   "responses": ["Yes! I can share ideas for relaxation, like mindfulness exercises, calming activities, and evening routines.", "Absolutely! I can help with relaxation techniques, breathing exercises, and ways to recharge."],
+   "context": [""]
+},
+{
+   "tag": "features_inspiration_quotes",
+   "patterns": ["Can you inspire me?", "Do you know any inspirational quotes?", "Can you help me feel inspired?"],
+   "responses": ["Yes, I have a variety of inspirational quotes for motivation, positivity, and resilience.", "Definitely! I can provide quotes on hope, self-confidence, and the importance of persistence."],
+   "context": [""]
+},
+{
+   "tag": "features_brainstorming_help",
+   "patterns": ["Can you help me brainstorm?", "Do you have brainstorming tips?", "Can you help with idea generation?"],
+   "responses": ["Yes! I can suggest techniques for brainstorming, mind mapping, and coming up with fresh ideas.", "Absolutely! Whether it's for a project, study, or anything creative, I can help you start the brainstorming process."],
+   "context": [""]
+},
+{
+   "tag": "features_daily_routines",
+   "patterns": ["Can you help me plan my day?", "Do you know how to build a daily routine?", "Can you help with daily planning?"],
+   "responses": ["Yes! I can suggest ways to organize your day with a productive morning routine, breaks, and evening relaxation.", "Of course! I can help structure your day with small goals and routines for a balanced day."],
+   "context": [""]
+},
+{
+   "tag": "features_goal_tracking",
+   "patterns": ["Can you help me track my goals?", "Do you have tips on achieving goals?", "Can you assist with reaching my goals?"],
+   "responses": ["Definitely! I can give you tips on goal-setting, breaking down tasks, and tracking your progress effectively.", "Yes! I can help you with strategies to stay focused on your goals and celebrate small wins."],
+   "context": [""]
+},
+{
+   "tag": "features_habit_building",
+   "patterns": ["Can you help me build habits?", "Do you know how to form good habits?", "Can you help with habit tracking?"],
+   "responses": ["Absolutely! I can offer strategies for building healthy habits and staying consistent with them.", "Yes! I can give you tips on how to start small, stay motivated, and track your habits over time."],
+   "context": [""]
+},
+{
+   "tag": "features_self_improvement",
+   "patterns": ["Can you help me improve myself?", "Do you have self-improvement tips?", "How can you help with personal growth?"],
+   "responses": ["Yes! I can suggest ways to work on self-improvement, from mindfulness to goal-setting and self-reflection.", "Absolutely! I have tips on personal growth, building confidence, and staying motivated."],
+   "context": [""]
+},
+{
+   "tag": "emotion_happy",
+   "patterns": ["I'm feeling happy", "I'm in a good mood", "I'm really joyful"],
+   "responses": ["That's wonderful! It's great to hear you're feeling happy. Anything special that made your day?", "I'm glad to hear you're joyful! Keep enjoying those positive vibes.", "Happiness is contagious—keep spreading that joy!"],
+   "context": [""]
+},
+{
+   "tag": "emotion_sad",
+   "patterns": ["I'm feeling sad", "I'm down", "I'm really blue"],
+   "responses": ["I'm sorry you're feeling this way. Remember, it's okay to feel sad, and I'm here if you want to talk about it.", "I'm here to listen. Sometimes sharing what's on your mind can help.", "Take your time to feel what you're feeling. Things will get better, and I'm here to support you."],
+   "context": [""]
+},
+{
+   "tag": "emotion_angry",
+   "patterns": ["I'm feeling angry", "I'm frustrated", "I'm mad"],
+   "responses": ["I'm here to help. Sometimes taking a deep breath or a short break can help release that anger.", "I understand you're feeling frustrated. Do you want to share what's on your mind?", "It's natural to feel angry sometimes. Let me know if there's any way I can help you feel better."],
+   "context": [""]
+},
+{
+   "tag": "emotion_anxious",
+   "patterns": ["I'm feeling anxious", "I'm nervous", "I'm really worried"],
+   "responses": ["I'm here for you. Deep breathing can sometimes help to calm anxious feelings.", "I understand. Sometimes talking about what's on your mind can be relieving.", "Take things one step at a time. I'm here if you need to talk or if you want some calming tips."],
+   "context": [""]
+},
+{
+   "tag": "emotion_excited",
+   "patterns": ["I'm feeling excited", "I'm thrilled", "I'm really pumped"],
+   "responses": ["That's awesome! What's got you so excited?", "I love hearing that kind of energy! Feel free to share what’s making you so thrilled!", "Sounds exciting! I’m here to celebrate with you!"],
+   "context": [""]
+},
+{
+   "tag": "emotion_confused",
+   "patterns": ["I'm feeling confused", "I'm unsure", "I'm puzzled"],
+   "responses": ["I’m here to help clear things up. Feel free to share what's confusing you.", "It's okay to feel confused; sometimes it just takes a little time to understand. Let me know how I can help.", "Confusion is part of learning. Let's work through it together if you need support."],
+   "context": [""]
+},
+{
+   "tag": "emotion_bored",
+   "patterns": ["I'm feeling bored", "I'm not entertained", "I'm looking for something to do"],
+   "responses": ["How about trying something new? I can suggest activities, movies, or even books!", "Boredom can be a chance to try something different. Let me know if you want some ideas.", "I can help you find something interesting! Would you like to try a new hobby or watch a movie?"],
+   "context": [""]
+},
+{
+   "tag": "emotion_lonely",
+   "patterns": ["I'm feeling lonely", "I feel alone", "I'm feeling isolated"],
+   "responses": ["I'm here with you. Remember, you're not alone. Talking can sometimes make us feel more connected.", "Loneliness can be tough, but I'm here to listen and support you.", "If you'd like, we can talk or even explore some activities together."],
+   "context": [""]
+},
+{
+   "tag": "emotion_grateful",
+   "patterns": ["I'm feeling grateful", "I feel thankful", "I'm appreciative"],
+   "responses": ["Gratitude is a beautiful feeling! What are you grateful for today?", "It's lovely to hear that you're feeling thankful. Reflecting on good things brings so much peace.", "Gratitude is powerful. If you'd like to share, I'd love to hear what you're grateful for!"],
+   "context": [""]
+},
+{
+   "tag": "emotion_guilty",
+   "patterns": ["I'm feeling guilty", "I feel bad", "I regret something"],
+   "responses": ["It's normal to feel guilt, and acknowledging it is a step toward understanding. I'm here if you want to share more.", "Sometimes we all feel this way. Try to be kind to yourself. Let me know if I can help.", "Guilt can be tough, but remember, it’s okay to forgive yourself and learn from the experience."],
+   "context": [""]
+},
+{
+   "tag": "emotion_proud",
+   "patterns": ["I'm feeling proud", "I feel accomplished", "I'm really proud of myself"],
+   "responses": ["That's fantastic! You deserve to feel proud of your achievements. What accomplishment are you celebrating?", "Being proud of yourself is wonderful! Keep up the great work.", "Pride in your efforts is well-earned. Enjoy this moment and keep believing in yourself!"],
+   "context": [""]
+},
+{
+   "tag": "emotion_hopeful",
+   "patterns": ["I'm feeling hopeful", "I have hope", "I'm optimistic"],
+   "responses": ["Hope is a wonderful thing to hold on to! Keep believing in the possibilities.", "Optimism is a powerful force. Keep that hope alive!", "I'm glad you're feeling hopeful. Let that feeling guide you through!" ],
+   "context": [""]
+},
+{
+   "tag": "emotion_skeptical",
+   "patterns": ["I'm feeling skeptical", "I'm doubtful", "I'm not sure I believe it"],
+   "responses": ["It's okay to have doubts; they help us make careful decisions. Feel free to share what's on your mind.", "Skepticism can be healthy! I'm here if you need to talk through it.", "Doubts are natural, and exploring them can help bring clarity."],
+   "context": [""]
+},
+{
+   "tag": "emotion_inspired",
+   "patterns": ["I'm feeling inspired", "I'm motivated", "I feel creative"],
+   "responses": ["That's amazing! Inspiration can lead to wonderful things. What are you feeling inspired about?", "I love that energy! Use that inspiration to create something great!", "Let that inspiration guide you! Feel free to share your ideas or goals."],
+   "context": [""]
+},
+{
+   "tag": "emotion_embarrassed",
+   "patterns": ["I'm feeling embarrassed", "I feel ashamed", "I'm a bit humiliated"],
+   "responses": ["It's okay; we all feel embarrassed at times. It usually passes quickly.", "Embarrassment is a natural emotion. I'm here if you want to talk it out.", "Don't worry too much. Try to be gentle with yourself—everyone makes mistakes."],
+   "context": [""]
+},
+{
+   "tag": "emotion_relaxed",
+   "patterns": ["I'm feeling relaxed", "I feel at peace", "I'm calm"],
+   "responses": ["That's wonderful! Relaxation is so refreshing. Enjoy the calm.", "It's great to hear you're at peace. Relaxation is important for our well-being.", "Being relaxed feels amazing, doesn’t it? Keep soaking in that tranquility."],
+   "context": [""]
+},
+{
+   "tag": "emotion_stressed",
+   "patterns": ["I'm feeling stressed", "I'm overwhelmed", "I'm under pressure"],
+   "responses": ["I'm here for you. Sometimes talking about what's stressing you can help ease the load.", "Remember to breathe. Let me know if you'd like some relaxation techniques.", "It's okay to feel overwhelmed at times. Try to take a break and do something that helps you relax."],
+   "context": [""]
+},
+{
+   "tag": "emotion_jealous",
+   "patterns": ["I'm feeling jealous", "I feel envious", "I'm jealous of someone"],
+   "responses": ["Jealousy is natural, but try to focus on your own strengths. You're unique in so many ways.", "It’s okay to feel that way; it can be a reminder of what we want to work toward.", "Sometimes, envy can inspire us to make positive changes. Keep focusing on what makes you happy."],
+   "context": [""]
+},
+{
+   "tag": "emotion_confident",
+   "patterns": ["I'm feeling confident", "I feel self-assured", "I'm feeling strong"],
+   "responses": ["That's fantastic! Confidence looks great on you.", "Keep shining with that self-assurance! It’s inspiring.", "Feeling confident is powerful. Use that strength to go after what you want!"],
+   "context": [""]
+},
+{
+   "tag": "emotion_surprised",
+   "patterns": ["I'm feeling surprised", "I'm shocked", "I wasn't expecting this"],
+   "responses": ["Surprises can be fun or shocking! Want to share what happened?", "Sometimes surprises can catch us off guard. Let me know if you want to talk it through.", "Surprise! Life is full of them. Hope it's a pleasant one!"],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_love",
+   "patterns": ["I love my girlfriend", "I'm really in love with my girlfriend", "My girlfriend means a lot to me"],
+   "responses": ["That's beautiful! Cherish every moment with her.", "It sounds like you have a special bond. Keep nurturing that love!", "Love is amazing, and it's great to hear you feel that way about her!"],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_appreciation",
+   "patterns": ["I appreciate my girlfriend", "My girlfriend is amazing", "I feel lucky to have my girlfriend"],
+   "responses": ["She sounds wonderful! It's so important to appreciate the people we love.", "Being grateful for her presence is a beautiful thing. Keep letting her know she’s valued!", "It sounds like she’s someone really special to you. That’s lovely to hear."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_date_ideas",
+   "patterns": ["I want to plan a date with my girlfriend", "Any date ideas for my girlfriend?", "Can you suggest date ideas?"],
+   "responses": ["How about a cozy dinner or a fun outdoor adventure? Let me know what kind of vibe you're aiming for!", "Sure! You could try a movie night, a picnic, or even a surprise home-cooked dinner.", "I’d suggest something thoughtful and personal. Would she enjoy an adventure or something relaxing?"],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_conflict",
+   "patterns": ["I'm having problems with my girlfriend", "We had a fight", "I'm worried about my relationship"],
+   "responses": ["Relationships can be tough at times. Communication is key, so talk it out calmly when you’re both ready.", "I'm here to listen. Sometimes a little time and open communication can make a big difference.", "It's normal to have ups and downs. Try to be understanding, and take the time to hear each other’s side."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_gift_ideas",
+   "patterns": ["I want to get a gift for my girlfriend", "Any gift ideas for my girlfriend?", "What can I buy my girlfriend?"],
+   "responses": ["A thoughtful gift like a handwritten letter, something related to her hobbies, or even a surprise outing might be perfect!", "How about something personal, like a small piece of jewelry, or something she’s mentioned wanting?", "Consider a gift that shows you pay attention to her interests or a keepsake that reminds her of special memories."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_miss",
+   "patterns": ["I miss my girlfriend", "I really miss her", "Being away from my girlfriend is hard"],
+   "responses": ["Being apart can be tough. Maybe a call or a surprise message would cheer you both up.", "Missing someone is a sign of deep connection. Plan something nice to do together soon.", "That longing is natural. Find ways to stay connected, even if it’s just sending a sweet message."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_support",
+   "patterns": ["My girlfriend is going through a tough time", "I want to support my girlfriend", "How can I help my girlfriend feel better?"],
+   "responses": ["Just being there for her and listening can mean a lot. Small gestures of kindness can also help.", "Encourage her, show empathy, and let her know she’s not alone.", "A supportive message or a comforting gesture can go a long way. She’ll appreciate knowing you’re there for her."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_advice",
+   "patterns": ["I need relationship advice", "Can you help me with my relationship?", "Any advice for being a good boyfriend?"],
+   "responses": ["Listening, patience, and showing appreciation go a long way. Be open and honest with each other.", "Focus on communication and understanding her needs. Small acts of kindness keep relationships strong.", "Support each other’s goals and dreams, and remember, respect is key in any relationship."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_celebration",
+   "patterns": ["It's our anniversary", "I want to celebrate my girlfriend", "Any celebration ideas for my girlfriend?"],
+   "responses": ["Happy anniversary! Plan something meaningful, like a memory-filled date or a special gift.", "You could recreate a memorable date or surprise her with something she’s been wanting to do!", "Celebrate by showing her how much she means to you. It could be a handwritten letter or a meaningful gift."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_sharing_memories",
+   "patterns": ["I want to share a memory with my girlfriend", "Remembering moments with my girlfriend", "How can I make memories with my girlfriend?"],
+   "responses": ["Shared experiences are priceless. Plan something you can both enjoy and look back on with a smile.", "Create memories by doing something meaningful together, like a road trip or a new activity.", "Photos, letters, or even a small scrapbook can help capture those memories forever."],
+   "context": [""]
+},
+{
+   "tag": "relationship_girlfriend_self_improvement",
+   "patterns": ["I want to be a better boyfriend", "How can I improve myself for my girlfriend?", "I want to make my relationship better"],
+   "responses": ["Taking the time to understand each other's needs and working on communication helps a lot.", "Self-reflection and open communication are great steps to becoming a more supportive partner.", "Becoming a better partner involves listening, patience, and supporting her goals."],
+   "context": [""]
+}
+   ]
+  }
+
